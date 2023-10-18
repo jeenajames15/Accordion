@@ -1,0 +1,40 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-wrapper {
+    margin-top: 3%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-wrapper {
+    margin-bottom: 1%;
+    border-radius: 4px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.header {
+    padding: 2%;
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    padding: 2%;
+}
+
+.checkboxWrapper {
+    display: flex;
+    width: 80%;
+    justify-content: end;
+    margin-top: 1%;
+}
